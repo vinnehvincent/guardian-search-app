@@ -1,0 +1,10 @@
+language: node_js
+  - "stable"
+cache:
+  directories:
+    - npm_modules
+script:
+  - npm test
+  - npm run build
+on: 
+  -master
